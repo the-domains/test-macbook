@@ -1,7 +1,8 @@
-analytics:
-  twitter: null
-  google: null
-  facebook: null
+favicon: null
+cta:
+  bucket: null
+  version: null
+  domain: null
 opengraph:
   image: null
   type: null
@@ -12,29 +13,28 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 purpose: []
 color:
   saturation: 0.9179105
   brandStrength: 0.2103545
-  lightness: 0.09748134
+  rhythmicContrast: 0.7346082
   brandColors:
     - '#383732'
     - '#77797E'
     - '#776E01'
     - '#FAA44B'
     - '#CFCFBD'
-  rhythmicContrast: 0.7346082
+  lightness: 0.09748134
 typography_spectrum: 0.09468301269225776
-cta:
-  bucket: null
-  version: null
-  domain: null
-layout_spectrum: 0.1779322542715818
-favicon: null
+layout_spectrum: 0.9095149
+analytics:
+  twitter: null
+  google: null
+  facebook: null
 name: Test macbook
